@@ -1,0 +1,17 @@
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Python cache Folders
+__pycache__/
+
+#pytest cache Folders
+.pytest_cache
+
+# Migrations Folder
+migrations/
+
+# file
+check_mysql_connection.py
