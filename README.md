@@ -132,12 +132,12 @@ A brief overview of the key directories and files:
 event_management_api/
 ├── app/
 │   ├── __init__.py
-│   ├── api/             # API endpoints (routers)
 │   ├── crud/            # Create, Read, Update, Delete operations (repositories)
 │   ├── models.py        # SQLAlchemy database models
-│   └── schemas.py       # Pydantic schemas for data validation and serialization
+│   ├── schemas.py       # Pydantic schemas for data validation and serialization
+│   └── services.py             # API endpoints (routers)
 ├── database.py          # Database connection and session management
-├── main.py              # FastAPI application entry point
+├── main.py              # FastAPI application entry , point API endpoints (routers)
 ├── tests/
 │   ├── __init__.py
 │   ├── test_models_and_schemas.py
